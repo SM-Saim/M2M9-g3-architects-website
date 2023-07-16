@@ -4,6 +4,8 @@
 * {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .btn-primary {
   background: #ff900e;
@@ -14,6 +16,7 @@
   padding: 15px 17px;
   border: 0;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 header {
@@ -24,6 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 .nav-title {
   color: #131313;
@@ -49,6 +53,7 @@ nav li a {
   max-width: 700px;
   text-align: center;
   margin: 0 auto;
+  margin-top: 80px;
 }
 .banner-header {
   color: #131313;
@@ -58,6 +63,7 @@ nav li a {
 .banner-p {
   color: #727272;
   font-weight: 400;
+  margin-top: 50px;
 }
 .banner-img {
   margin-top: 20px;
@@ -114,12 +120,88 @@ main {
   font-size: 1rem;
   font-weight: 400;
 }
-.facts-head {
+
+/* exp */
+.experience {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.card-11 {
+  background: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-left: 120px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.exp-head {
   color: #131313;
   font-size: 2.8rem;
   font-weight: 700;
   padding-left: 120px;
   margin-bottom: 20px;
+  margin-top: 120px;
+}
+.exp-card-head {
+  color: #131313;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 3px;
+}
+.exp-p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  padding-left: 120px;
+}
+.exp-card-p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.experience-img {
+  margin-right: 90px;
+}
+.exp-img {
+  width: 650px;
+}
+
+.head-10 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 5px;
+}
+.p-10 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 5px;
+}
+.exp-10 {
+  background: #ff900e;
+  border-radius: 8px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+  bottom: 80px;
+}
+
+.facts-head {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-left: 5px solid #ff900e;
+  padding-left: 10px;
 }
 .facts-p {
   color: #727272;
